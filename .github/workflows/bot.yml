@@ -1,4 +1,4 @@
-name: sip scraper
+name: project bot
 
 on: [workflow_dispatch]
 
