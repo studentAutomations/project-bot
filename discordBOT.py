@@ -5,7 +5,7 @@ WEBHOOK_URL = [os.getenv('PROJECTBOT')]
 for url in WEBHOOK_URL:
     hook = Webhook(url) 
 
-    hook.send('**@everyone SIP je ažuriran!**')
+    hook.send('**@everyone**')
    
     image2_path = 'sip-nova-obavestenja.png' 
 
