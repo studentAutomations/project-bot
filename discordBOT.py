@@ -15,11 +15,11 @@ for url in WEBHOOK_URL:
     )
     
     # Dodaj stavke u embed
-    embed.add_field(name="✅", value="Popravljeni su bagovi i greške.")
-    embed.add_field(name="🤖", value="Dodati su novi botovi.")
-    embed.add_field(name="✨", value="Poruke bota imaju novi dizajn.")
-    embed.add_field(name="⏱️", value="Smanjeno je vreme obrade operacija.")
-    embed.add_field(name="📱", value="Notifikacije za mobilne aplikacije sada imaju novi izgled.")
+    embed.add_field(name="", value="- Popravljeni su bagovi i greške.", inline=False)
+    embed.add_field(name="", value="- Dodati su novi botovi.", inline=False)
+    embed.add_field(name="", value="- Poruke bota imaju novi dizajn.", inline=False)
+    embed.add_field(name="", value="- Smanjeno je vreme obrade operacija.", inline=False)
+    embed.add_field(name="", value="- Notifikacije za mobilne aplikacije sada imaju novi izgled.", inline=False)
     
     # Pošalji embed
     hook.send("@everyone", embed=embed)
