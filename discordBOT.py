@@ -22,4 +22,4 @@ for url in WEBHOOK_URL:
     embed.add_field(name="", value="- Notifikacije za mobilne aplikacije sada imaju novi izgled.", inline=False)
     
     # Pošalji embed
-    hook.send("@BOT-UPDATE", embed=embed)
+    hook.send("@everyone", embed=embed)
