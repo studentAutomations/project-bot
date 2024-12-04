@@ -5,10 +5,4 @@ WEBHOOK_URL = [os.getenv('PROJECTBOT')]
 for url in WEBHOOK_URL:
     hook = Webhook(url) 
 
-    hook.send('**@everyone**')
-   
-    image2_path = 'sip-nova-obavestenja.png' 
-
-    hook.send(file=File(image2_path, name='sip-nova-obavestenja.png'))
-
-    hook.send('**>>> https://sip.elfak.ni.ac.rs/**')
+    hook.send('**@everyone**/n/n**📢 Ažuriranje bota**/n Evo najnovijih promena:/n- Popravljeni su bagovi i greške./n- Dodati su novi botovi./n- Poruke bota imaju novi dizajn./n- Smanjeno je vreme obrade operacija./n- Notifikacije za mobilne aplikacije sada imaju novi izgled./nHvala na pažnji! 😊')
