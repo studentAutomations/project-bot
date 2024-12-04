@@ -12,13 +12,13 @@ for url in WEBHOOK_URL:
     
     # Kreiraj embed
     embed = Embed(
-        title="📢 Ažuriranje bota",
-        description="Evo najnovijih promena:",
+        title="Evo najnovijih promena:",
+        description="**- Popravljeni su bagovi i greške.\n- Dodati su novi botovi.\n- Poruke bota imaju novi dizajn.\n- Smanjeno je vreme obrade operacija.\n- Notifikacije za mobilne aplikacije sada imaju novi izgled.\n\nHvala na pažnji! 😊**",
         color=0x7289DA  # Discord plava boja
     ) 
     
     # Dodaj stavke u embed
-    embed.add_field(name="", value="**- Popravljeni su bagovi i greške.\n- Dodati su novi botovi.\n- Poruke bota imaju novi dizajn.\n- Smanjeno je vreme obrade operacija.\n- Notifikacije za mobilne aplikacije sada imaju novi izgled.\n\nHvala na pažnji! 😊**", inline=False)
+    #embed.add_field(name="", value="", inline=False)
     
     # Dodaj sliku na embed
     #embed.set_image(url="attachment://sip-nova-obavestenja.png")
@@ -26,4 +26,4 @@ for url in WEBHOOK_URL:
     # Pošalji poruku sa slikom
     #file = File(image2_path, name="sip-nova-obavestenja.png")
     #hook.send("@everyone", embed=embed, file=file)
-    hook.send("@everyone", embed=embed)
+    hook.send("**@everyone 📢 Ažuriranje bota**", embed=embed)
