@@ -13,7 +13,7 @@ for url in WEBHOOK_URL:
     # Kreiraj embed
     embed = Embed(
         title="Ažuriranje sistema bota donosi sledeće izmene:",
-        description = "- Ispravljeni su bagovi i greške.\n- Svaki predmet sada ima svog bota, koji dnevno posećuje sajt barem 50 puta.\n- Poruke botova sada imaju novi dizajn.\n- Botovi rade brže i efikasnije.\n- Notifikacije za mobilne aplikacije sada imaju nov izgled.\n\nHvala na pažnji! 😊",
+        description = "- Ispravljeni su bagovi i greške.\n- Svaki predmet sada ima svog bota, koji dnevno posećuje sajt barem 50 puta. [znam da je preterano ali ovako nema sanse da propustimo nove objave]\n- Poruke botova sada imaju novi dizajn.\n- Botovi rade efikasnije.\n- Notifikacije za mobilne aplikacije sada imaju nov izgled.\n\nHvala na pažnji! 😊",
         color=0x7289DA  # Discord plava boja
     ) 
     
