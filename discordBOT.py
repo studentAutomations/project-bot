@@ -28,5 +28,5 @@ for url in WEBHOOK_URL:
     embed.set_image(url="attachment://sip-nova-obavestenja.png")
     
     # Pošalji poruku sa slikom
-    with File(image2_path, name="sip-nova-obavestenja.png") as file:
-        hook.send("@everyone", embed=embed, file=file)
+    file = File(image2_path, name="sip-nova-obavestenja.png")
+    hook.send("@everyone", embed=embed, file=file)
