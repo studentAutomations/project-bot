@@ -21,8 +21,8 @@ for url in WEBHOOK_URL:
     embed.add_field(name="", value="**- Popravljeni su bagovi i greške.\n- Dodati su novi botovi.\n- Poruke bota imaju novi dizajn.\n- Smanjeno je vreme obrade operacija.\n- Notifikacije za mobilne aplikacije sada imaju novi izgled.\n\nHvala na pažnji! 😊**", inline=False)
     
     # Dodaj sliku na embed
-    embed.set_image(url="attachment://sip-nova-obavestenja.png")
+    #embed.set_image(url="attachment://sip-nova-obavestenja.png")
     
     # Pošalji poruku sa slikom
-    file = File(image2_path, name="sip-nova-obavestenja.png")
-    hook.send("@everyone", embed=embed, file=file)
+    #file = File(image2_path, name="sip-nova-obavestenja.png")
+    #hook.send("@everyone", embed=embed, file=file)
