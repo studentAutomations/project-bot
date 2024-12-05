@@ -12,7 +12,7 @@ for url in WEBHOOK_URL:
     
     
     embed = Embed(
-        description="**Evo najnovijih izmena:\n\n- svi botovi sadaimaju built in link koji vas vodi direktno na forum sa novostima\n\nHvala na pažnji! 😊**",
+        description="**Evo najnovijih izmena:\n\n- Svi botovi sada imaju ugrađen link koji vas vodi direktno na forum sa novostima.\n\nHvala na pažnji! 😊**",
         color=0x7289DA  
     ) 
     
