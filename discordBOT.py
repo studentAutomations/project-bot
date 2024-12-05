@@ -12,14 +12,8 @@ for url in WEBHOOK_URL:
     
     
     embed = Embed(
-        description="[SIP link - click here -](https://sip.elfak.ni.ac.rs/)",
+        description="**Evo najnovijih izmena:\n\n- svi botovi sadaimaju built in link koji vas vodi direktno na forum sa novostima\n\nHvala na pažnji! 😊**",
         color=0x7289DA  
     ) 
     
-    
-    embed.set_image(url="attachment://sip-nova-obavestenja.png")
-    
-    
-    file = File(image2_path, name="sip-nova-obavestenja.png")
-    
-    hook.send("@everyone 📢 SIP", embed=embed, file=file)
+    hook.send("@everyone 📢 Ažuriranje botova", embed=embed)
